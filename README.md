@@ -52,7 +52,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/sarikamohan08/Wine_dvc",
-    author_email="@gmail.com",
+    author_email="sarikamohan08@gmail.com",
     packages=["src"],
     python_requires=">=3.7",
     install_requires=[
