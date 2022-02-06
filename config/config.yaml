@@ -1,5 +1,6 @@
 data_source: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
 
+
 artifacts: 
   artifacts_dir: artifacts
   raw_local_dir: raw_local_dir
@@ -12,3 +13,5 @@ artifacts:
   model_dir: model_dir
   model_filename: ElasticNet.model
 
+  reports_dir: reports_dir
+  scores: scores.json 
