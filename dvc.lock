@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src/stage_01_load_save.py --config=config/config.yaml
+    deps:
+    - path: config/config.yaml
+      md5: b4160d9570a52fcec41d069167ddc2ed
+      size: 205
+    - path: src/stage_01_load_save.py
+      md5: 54c9a3262ee5b9f81f5f816f2f27da40
+      size: 1054
+    - path: src/utils/all_utils.py
+      md5: 9e18d67b86b943e8d53a867453b3a3e0
+      size: 746
+    outs:
+    - path: artifacts/raw_local_dir/data.csv
+      md5: 7d814a1bda02145efe703f4e1c01847a
+      size: 93599
